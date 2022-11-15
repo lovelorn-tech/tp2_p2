@@ -14,7 +14,7 @@ Devuelve un nuevo DataFrame que contiene solamente el top 5 de registros
 del DataFrame de origen, a partir de los valores de una columna data
 '''
 def crear_top5_dataframe(dataframe, columna):
-    return pandas.DataFrame(dataframe.sort_values(by = columna, ascending = False).head(5))
+    return pandas.DataFrame(dataframe.sort_values(by=columna, ascending=False).head(5))
 
 
 '''
